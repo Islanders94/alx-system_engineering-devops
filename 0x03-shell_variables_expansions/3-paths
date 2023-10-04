@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $PATH | re ":" "\n" | WC -1
